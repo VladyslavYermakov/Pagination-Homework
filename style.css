@@ -1,0 +1,31 @@
+.images {
+    border-radius: 20px;
+}
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#loadMoreBtn {
+    font-family: "Science Gothic";
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    font-size: 35px;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#loadMoreBtn:hover {
+    background-color: rgb(220, 220, 220);
+}
+.gallery-title {
+    font-family: "Science Gothic";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
